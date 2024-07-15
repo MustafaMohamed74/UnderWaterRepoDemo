@@ -146,21 +146,3 @@ class Pixhawk:
 #[throttle (up, down), yaw, forward/backwards, lateral (left, right), 
 # gripper 1, gripper 2, light, rotating gripper (0: off / left / right),
 # arm/disarm, flight mode, joystick connection]
-
-
-# if "__main__" == __name__:
-
-#     pix = Pixhawk()
-#     while True:
-#         pix.Set_Flight_Mode('S')
-#         pix.Flight_Mode_Running_Now()
-#         print("on")
-#         time.sleep(2)
-#         pix.Set_Flight_Mode('M')
-#         pix.Flight_Mode_Running_Now()
-#         print("off")
-#         time.sleep(2)
-#         pix.Set_Flight_Mode('A')
-#         pix.Flight_Mode_Running_Now()
-#         print("on")
-#         time.sleep(2)
