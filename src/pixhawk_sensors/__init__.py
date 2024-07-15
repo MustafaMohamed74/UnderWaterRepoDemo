@@ -1,0 +1,1 @@
+from pixhawk_sensors.sensors import SensorsCollector
