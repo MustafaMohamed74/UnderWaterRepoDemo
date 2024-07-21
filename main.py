@@ -25,5 +25,5 @@ while True:
     if ControlMessage is not None:
         pix.ControlPixhawk(ControlMessage)
         print(ControlMessage)
-        print("hello test_branching")
+        
     time.sleep(0.01)
